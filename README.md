@@ -1,3 +1,3 @@
 # JavaScriptProjects
-Author: Zakir Asnari
+Author: Zakir Asnari <br>
 this is my first github repository
