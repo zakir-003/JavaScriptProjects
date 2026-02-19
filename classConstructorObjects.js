@@ -17,4 +17,4 @@ p3 = new Person('sajid', 'Hussain', 776767);
 
 p1.getName, p1.getContact();
 p2.getName();
-p3.getContact();
+p3.getContact(), p3.getName();
