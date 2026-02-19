@@ -1,4 +1,3 @@
-
 /* +++++++++ Single Threaded nature of JS ++++++++++++ 
  Single threaded means JavaScript can do only one task at a time.
 That means:
