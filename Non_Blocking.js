@@ -5,3 +5,4 @@ setTimeout(() => {
 
 console.log('This line is run without blockage of the heavy loop');
 // In this way the console content at the last will run asynchrnously first then after that the heavy loop function is executed.
+   
