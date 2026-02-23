@@ -24,3 +24,5 @@ let result = calculator(6, 7, Add);
 console.log(`The reslult is of sum is = ${result}`);
 result = calculator(6, 7, Sub);
 console.log(`The reslult is of Subtaction is = ${result}`);
+
+// this is all about callback
