@@ -1,4 +1,4 @@
-// ++++++Another example of promise in conditional statemtnet +++++++++++
+// ++++++ example of promise in conditional statemtnet +++++++++++
 let promise = new Promise((resolve, rej) => {
   console.log('This is Promise');
   let num = 4;
