@@ -1,5 +1,6 @@
 function mergeSort(arr) {
-  if (arr.length <= 1) return arr; // if only single value left in the array or empty.
+  if (arr.length <= 1) return arr; // if only single value
+  console.log('ar=', arr);
 
   const mid = Math.floor(arr.length / 2); // mid find
 
@@ -23,14 +24,8 @@ function merge(left, right) {
       j++;
     }
   }
-  console.log('reslut= ', result);
+  //console.log('reslut= ', result.concat(left.slice(i)).concat(right.slice(j)));
   return result.concat(left.slice(i)).concat(right.slice(j));
 }
 
-console.log(
-  mergeSort([
-    45, 12, 89, 33, 67, 21, 90, 54, 76, 11, 5, 99, 38, 72, 14, 60, 2, 81, 47,
-    29, 53, 8, 94, 36, 70, 19, 63, 41, 87, 24, 58, 3, 97, 31, 65, 17, 84, 49,
-    26, 73, 6, 92, 34, 78, 15, 69, 22, 88, 40, 55,
-  ])
-);
+console.log(mergeSort([5, 3, 8, 4, 2]));
